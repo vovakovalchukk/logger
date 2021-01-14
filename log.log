@@ -1,0 +1,8 @@
+Thu, 14 Jan 2021 12:53:36 +0300 info Any info message
+Thu, 14 Jan 2021 12:53:36 +0300 alert Any alert message
+Thu, 14 Jan 2021 12:53:36 +0300 error Any error message
+Thu, 14 Jan 2021 12:53:36 +0300 debug Any debug message
+Thu, 14 Jan 2021 12:53:36 +0300 notice Any notice message
+Thu, 14 Jan 2021 12:53:36 +0300 warning Any warning message
+Thu, 14 Jan 2021 12:53:36 +0300 critical Any critical message
+Thu, 14 Jan 2021 12:53:36 +0300 emergency Any emergency message
