@@ -1,5 +1,7 @@
 <?php
 
+/* Определены основные типы сообщений */
+
 class LogLevel
 {
     const EMERGENCY = 'emergency';
@@ -11,6 +13,8 @@ class LogLevel
     const INFO      = 'info';
     const DEBUG     = 'debug';
 }
+
+/* Определены методы, которые должно быть использованы */
 
 interface LoggerInterface
 {
@@ -24,6 +28,8 @@ interface LoggerInterface
     public function debug($message, array $context = array());
     public function log($level, $message, array $context = array());
 }
+
+/* Определены правила, что именно должно происходить при вызове методов */
 
 abstract class AbstractLogger implements LoggerInterface
 {
